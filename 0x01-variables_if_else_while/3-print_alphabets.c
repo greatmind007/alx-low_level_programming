@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
-  * main-program entry point.
+  * main- prints alphabets in lower case and upper case
   * Return: 0 no error, non zero if error
   **/
 int main(void)
 {
 	char i;
-	char j;
 
 	for (i = 'a'; i <= 'z'; i++)
-	{
-		putchar(j);
-	}
+		putchar(i);
+
+	for (i = 'A'; i <= 'Z'; i++)
+		putchar(i);
+
 	putchar('\n');
+
 	return (0);
 }
