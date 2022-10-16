@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
-  * main - entry point
-  *
-  * Return: 0 success, non zero error
+  * main-program entry point.
+  * Return:0 success, non zero error.
   */
 int main(void)
 {
@@ -23,4 +22,5 @@ int main(void)
 	}
 	putchar('ls\n');
 	return (0);
+
 }
