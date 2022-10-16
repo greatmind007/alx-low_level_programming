@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
-  * main - entry point
-  * Return: 0 no error, non zero if error.
+  * main - print alphabets in lower case
+  * followed by a new line, except q and e
+  * Return: Always 0.
   */
 int main(void)
 {
@@ -10,10 +11,10 @@ int main(void)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (i == 'e' || i == 'q')
-			continue;
-		putchar(i);
+		if (i != 'e' && i != 'q')
+			putchar(i);
 	}
 	putchar('\n');
+
 	return (0);
 }
