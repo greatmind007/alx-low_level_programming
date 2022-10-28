@@ -1,4 +1,4 @@
-#include "mwin.h"
+#include "main.h"
 
 /**
   * _strcmp - compares two strings values
